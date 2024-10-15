@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">                                                  <!-- para controlar o comportaento da exibicao em dispositivos moveis
+                                                                            largura da pagina ajustada a largura da tela do dispositivo
+                                                                            initial-scale=1.0 (inicia  a pagina sem zoom (100%)) -->
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                                                                            <!--Definir o titulo da pagina que irá aparecer na aba do browser-->
+    <title>My Digital Portfolio</title>
+    <style>
+        body {
+            font-family: 'Courier New', monospace;                                /* Aplica a fonte */
+            margin: 0;                                                      /* Remove margens padrão do body */
+            padding: 0;                                                     /* Remove preenchimento padrão do body */
+            font-size: 16px;                                                /* Tamanho padrão da fonte para o corpo */
+            font-weight: bold;
+        }
+        header{
+            background-color: turquoise;
+            text-align: center;             /*centraliza o header*/
+            padding: 20px;                  /*espacamento em redor do cabecalho*/
+        }
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-weight: bold;
+        }
+        img{
+            display: block; /* Transformando a imagem em um bloco */
+            margin: 0 auto; /* Margens automáticas para centralizar a imagem */
+        }
+        p{
+            text-align: left;
+        }
+        footer {
+            text-align: right;
+            padding: 3px;                       /* Espaçamento ao redor do texto no rodapé */
+            background-color: #f1f1f1;        /* Cor de fundo (opcional) */
+            margin-top: auto;                   /* Empurra o rodapé para o fundo */
+        }
+    </style>
+
+                                                                            <!--o conteudo que está dentro do body será exibido na pagina
+                                                                            tudo o que os visitantes conseguem ver e interagir está dentro desta tag-->
+</head>
+<body>
+    <header>
+        <h1>Rita Almeida Ramos</h1>                                         <!--cabecalho--> 
+    </header>
+    <main>                                                                  <!-- dentro da main esta o conteudo mais importante(sem cabecalho ou rodapes) -->
+        <img src="fotoRita.jpg" alt="Rita's Photo" width="300" height="auto">
+                                                                            <!-- alt (acima) representa alternativa para se a imagem nao carregar(ou para leitores para deficiencia visual) -->
+        <p>Hello! I am Rita Ramos and  I am currently studying computer science at the University of Coimbra. This is my CV, where you can explore my projects and get to know me a little better. Feel free to get in touch on LinkedIn!</p>
+    </main>
+    <footer>                                                                <!--  definir rodapé -->
+        <p>&copy; 2024 My CV. All rights reserved.</p>
+    </footer>
+</body>
+</html>
